@@ -9,8 +9,17 @@
     <h1>CODEWARS</h1>
     <h2>Powers of 2</h2>
 
-    <img src="screenshot.jpg">
+    <img src="screenshot.jpg"><br><br>
 
-    
+    <script>
+        function powersOfTwo(n){
+            let output = []
+                for (let i=0;i<=n;i++){
+                    output.push(2**i)
+                }
+            return output
+        }
+        document.write(powersOfTwo(10))
+    </script>
 </body>
 </html>
